@@ -44,7 +44,7 @@ a, .btn {
 
 a {
   color: color($colors, primary);
-  &:hover {
+  &:hover, &:focus {
     color: color($colors, secondary);
   }
 
@@ -172,9 +172,19 @@ span.font-raleway {
 }
 
 .pagination {
+  li {
+    a {
+      color: #333;
+    }
+  }
   li.active {
     a {
+      border-color: transparent;
       background-color: color($colors, primary);
+      &:hover, &:focus {
+        border-color: transparent;
+        background-color: color($colors, primary);
+      }
     }
   }
 }
@@ -192,22 +202,30 @@ section {
   padding-top: 20px;
 }
 
-.form-control:focus {
-  box-shadow: none;
-  border-color: color($colors, primary);
+.form-control {
+  border-radius: 0;
+  &:focus {
+    box-shadow: none;
+  }
 }
 
 .btn {
+  font-size: 15px;
+  border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
   border-color: transparent;
+  padding-top: 8px;
+  padding-bottom: 8px;
   &.btn-lg {
+    border-radius: 0;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
   &.btn-sm {
+    border-radius: 0;
     padding: 5px 10px;
   }
   &:focus {
@@ -591,8 +609,14 @@ section {
   label {
     margin-bottom: 0;
     font-size: 14px;
+    font-weight: 400;
+  }
+  .help-block {
+    font-size: 12px;
+    margin-top: -3px;
   }
   .form-control {
+    border-radius: 0;
     font-family: 'Lato';
     font-weight: 300;
     height: 45px;
@@ -605,8 +629,41 @@ section {
       border-radius: 4px;
     }
   }
-  .help-block {
-    margin-top: -3px;
+
+  &.has-error {
+    .form-control {
+      border-color: color($colors, danger);
+    }
+    .control-label {
+      color: color($colors, danger);
+    }
+    .help-block {
+      color: color($colors, danger);
+    }
+  }
+
+  &.has-success {
+    .form-control {
+      border-color: color($colors, success);
+    }
+    .control-label {
+      color: color($colors, success);
+    }
+    .help-block {
+      color: color($colors, success);
+    }
+  }
+
+  &.has-warning {
+    .form-control {
+      border-color: color($colors, warning);
+    }
+    .control-label {
+      color: color($colors, warning);
+    }
+    .help-block {
+      color: color($colors, warning);
+    }
   }
 
   &.floating {
@@ -1730,7 +1787,7 @@ aside {
       position: absolute;
       right: 0;
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 700;
       color: #383838;
       top: 5px;
       i {
@@ -1817,8 +1874,10 @@ aside {
   .nav li {
     a {
       background-color: #F0F0F0;
+      color: #333;
       padding: 12px;
       font-size: 14px;
+      border-radius: 0 !important;
       i:before {
         font-size: 18px;
         margin-right: 5px;
