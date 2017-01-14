@@ -18,6 +18,9 @@ Magz is a free HTML5 & CSS3 magazine template is based on Bootstrap 3. This temp
 Please, try before you cry!
 <a href="http://demo.kodinger.com/magz">Hit Me</a>
 
+## Report Some Bugs
+Find a Bug? Please, create an issue and we'll fix it together for a better template.
+
 ##Credits
 I want to say thank you very much to those who have made a cool plugins that used in Magz.
 - Bootstrap by getbootstrap.com
