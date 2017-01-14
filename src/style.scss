@@ -204,8 +204,10 @@ section {
 
 .form-control {
   border-radius: 0;
+  height: 40px;
   &:focus {
-    box-shadow: none;
+    border-color: #989898;
+    box-shadow: 0 1px 2px #ddd;
   }
 }
 
@@ -619,7 +621,6 @@ section {
     border-radius: 0;
     font-family: 'Lato';
     font-weight: 300;
-    height: 45px;
     &:focus {
       border-color: #989898;
       box-shadow: 0 1px 2px #ddd;
@@ -1568,6 +1569,10 @@ section .container {
 .newsletter {
   .form-control {
     font-size: 14px;
+    height: 39px;
+    &:focus {
+      box-shadow: none;
+    }
   }
   .btn i:before {
     font-size: 18px;
@@ -2255,7 +2260,7 @@ footer.footer {
       top: 0;
       z-index: 9;
       height: 40px;
-      line-height: 22px;
+      line-height: 26px;
       i:before {
         transform: scale(1.4);
       }

@@ -342,9 +342,11 @@ section {
   padding-top: 20px; }
 
 .form-control {
-  border-radius: 0; }
+  border-radius: 0;
+  height: 40px; }
   .form-control:focus {
-    box-shadow: none; }
+    border-color: #989898;
+    box-shadow: 0 1px 2px #ddd; }
 
 .btn {
   font-size: 15px;
@@ -650,8 +652,7 @@ section {
 .form-group .form-control {
   border-radius: 0;
   font-family: 'Lato';
-  font-weight: 300;
-  height: 45px; }
+  font-weight: 300; }
   .form-group .form-control:focus {
     border-color: #989898;
     box-shadow: 0 1px 2px #ddd; }
@@ -1375,7 +1376,10 @@ section .container {
   padding-right: 15px; }
 
 .newsletter .form-control {
-  font-size: 14px; }
+  font-size: 14px;
+  height: 39px; }
+  .newsletter .form-control:focus {
+    box-shadow: none; }
 .newsletter .btn i:before {
   font-size: 18px; }
 
@@ -1897,7 +1901,7 @@ footer.footer {
     top: 0;
     z-index: 9;
     height: 40px;
-    line-height: 22px; }
+    line-height: 26px; }
     footer.footer .newsletter .input-group-addon i:before {
       transform: scale(1.4); }
   footer.footer .newsletter .form-control {
