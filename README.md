@@ -1,5 +1,5 @@
 # Magz
-Magz is a free HTML5 & CSS3 magazine template is based on Bootstrap 3. This template is free for personal or commercial use (just give Kodinger credit for design).
+Magz is a free HTML5 & CSS3 magazine template is based on Bootstrap 3. This template is free for personal or commercial use (give Kodinger credit for design is a good thing).
 
 ## Features
 - Fully Responsive
@@ -9,10 +9,16 @@ Magz is a free HTML5 & CSS3 magazine template is based on Bootstrap 3. This temp
 - Ion Icons (Font Icons)
 - Google Fonts
 - 20+ Social Media Buttons
-- Cross Browser (Chrome, Firefox, Opera, Safari, IE)
 - Available 5 Pages (Homepage, Detail Article, Detail Page, Category, Contact)
 - Swipe Slider
 - More ...
+
+## Browser Support
+- Google Chrome (latest)
+- Safari (latest)
+- Opera (latest)
+- Firefox (latest)
+- IE 11+
 
 ## Demo
 Please, try before you cry!
@@ -32,6 +38,9 @@ I want to say thank you very much to those who have made a cool plugins that use
 - Font: Roboto by Christian Robertson
 - Font: Lato by Łukasz Dziedzic
 - Font: Raleway by Multiple Designers
+
+## Image Credits
+<a href="http://pexels.com">Pexels</a>
 
 ## License
 <a href="https://github.com/nauvalazhar/Magz/blob/master/LICENSE">You will read this?</a>
