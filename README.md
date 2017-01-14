@@ -43,4 +43,4 @@ I want to say thank you very much to those who have made a cool plugins that use
 <a href="http://pexels.com">Pexels</a>
 
 ## License
-<a href="https://github.com/nauvalazhar/Magz/blob/master/LICENSE">You will read this?</a>
+<a href="https://github.com/nauvalazhar/Magz/blob/master/LICENSE">Will you read this?</a>
