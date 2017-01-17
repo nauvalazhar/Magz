@@ -1,5 +1,5 @@
 # Magz
-Magz is a free HTML5 & CSS3 magazine template is based on Bootstrap 3. This template is free for personal or commercial use (give Kodinger credit for design is a good thing).
+Magz is a free HTML5 & CSS3 magazine template is based on Bootstrap 3. This template is free for personal or commercial use (give credit for design is a good thing).
 
 ## Features
 - Fully Responsive
