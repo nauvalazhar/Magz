@@ -24,7 +24,7 @@ Let's make it easy! Just download this template, use it on your project.
 - IE 11+
 
 ## Documentation
-Of course, we call them "<a hef="https://nauvalazhar.github.io/Magz/element.html">Elements available on Magz</a>".
+Of course, we call them "<a href="https://nauvalazhar.github.io/Magz/element.html">Elements available on Magz</a>".
 
 ## Demo
 Please, try before you cry!
