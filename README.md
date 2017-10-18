@@ -51,7 +51,7 @@ Let's make it easy! Just download this template, use it on your project.
 - Microsoft Edge
 
 # Documentation
-[Hit me](http://magz.multinity.com/demo/documentation/index.html)
+[Hit me](http://magz.multinity.com/documentation/index.html)
 
 # Demo
 [Hit Me](http://magz.multinity.com)
