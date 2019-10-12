@@ -52,12 +52,6 @@ Let's make it easy! Just download this template, use it on your project.
 - IE 11+
 - Microsoft Edge
 
-# Documentation
-[Hit me](http://magz.multinity.com/documentation/index.html)
-
-# Demo
-[Hit Me](http://magz.multinity.com)
-
 # Report Some Bugs
 Find a Bug? Please, create an issue and we'll fix it together for a better template.
 
